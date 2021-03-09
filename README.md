@@ -12,7 +12,7 @@
   * [Licenses](#licenses)
 
   # Installation Instructions
-  Deployed link: 
+  Deployed link: https://jamiedelange.github.io/portfolio-react/
 
   # Usage Information
   Navigate between pages using the nav bar.
