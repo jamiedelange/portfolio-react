@@ -174,8 +174,9 @@ nav a:hover {
   text-decoration: none;
 }
 
-nav  li {
+nav li {
   cursor: pointer;
+  padding: 2px;
 }
 
 .nav1:hover {
