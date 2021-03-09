@@ -4,7 +4,7 @@
 
   # Description
 
-  This is an updated portfolio build with React and construted as a single-page application. View previous projects and my resume.
+  This is an updated portfolio build with React and constructed as a single-page application. View previous projects and my resume.
 
   # Table of Contents
   * [Installation Instructions](#installation-instructions)
@@ -12,7 +12,7 @@
   * [Licenses](#licenses)
 
   # Installation Instructions
-  Deployed link: 
+  Deployed link: https://jamiedelange.github.io/portfolio-react/
 
   # Usage Information
   Navigate between pages using the nav bar.
@@ -25,3 +25,5 @@
 
   E-mail me at jamie.de.lange@mac.com if you have any questions!
   
+  Screenshot of application: 
+  ![screenshot of deployed portfolio](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b6c5bvpde46ad7cxvbqi.png)
