@@ -4,7 +4,7 @@
 
   # Description
 
-  This is an updated portfolio build with React and construted as a single-page application. View previous projects and my resume.
+  This is an updated portfolio build with React and constructed as a single-page application. View previous projects and my resume.
 
   # Table of Contents
   * [Installation Instructions](#installation-instructions)
