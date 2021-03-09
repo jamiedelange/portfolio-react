@@ -25,3 +25,5 @@
 
   E-mail me at jamie.de.lange@mac.com if you have any questions!
   
+  Screenshot of application: 
+  ![screenshot of deployed portfolio](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b6c5bvpde46ad7cxvbqi.png)
