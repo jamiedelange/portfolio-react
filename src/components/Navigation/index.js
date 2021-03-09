@@ -40,7 +40,7 @@ function Navigation(props) {
   return (
     <header  className="flex-row">
       <h1 className="title">
-        <a href="/portfolio-react" onClick={() => selectAbout()}>JAMIE DE LANGE</a>
+        <a href="#about" onClick={() => selectAbout()}>JAMIE DE LANGE</a>
       </h1>
       <nav className="nav">
         <ul className="flex-row">
