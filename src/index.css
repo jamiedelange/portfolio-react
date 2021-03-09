@@ -347,6 +347,7 @@ li {
   padding: 0 2rem 0 2rem;
   list-style-type: none;
 }
+
 .footer-li:hover {
   opacity: 80%;
 }
