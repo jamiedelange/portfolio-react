@@ -350,6 +350,7 @@ li {
 
 .footer-li:hover {
   opacity: 80%;
+  color: white;
 }
 
 .icon {
