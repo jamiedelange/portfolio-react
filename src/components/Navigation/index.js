@@ -40,7 +40,7 @@ function Navigation(props) {
   return (
     <header  className="flex-row">
       <h1 className="title">
-        <a href="/">JAMIE DE LANGE</a>
+        <a href="#about">JAMIE DE LANGE</a>
       </h1>
       <nav className="nav">
         <ul className="flex-row">
