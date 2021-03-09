@@ -271,7 +271,7 @@ textarea {
   margin: 0 0 0 1rem;
 }
 .icon-p:hover {
-  opacity: 80%;
+  opacity: .8;
 }
 
 img {
@@ -285,7 +285,7 @@ img {
   cursor: pointer;
 }
 .img-thumbnail:hover {
-  opacity: 80%;
+  opacity: .8;
   transition: 0.4s;
 }
 
@@ -347,9 +347,8 @@ li {
   padding: 0 2rem 0 2rem;
   list-style-type: none;
 }
-
 .footer-li:hover {
-  opacity: 80%;
+  opacity: .8;
 }
 
 .icon {

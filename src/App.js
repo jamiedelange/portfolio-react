@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
@@ -6,7 +6,12 @@ import Resume from "./components/Resume";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
+
 function App() {
+  useEffect(() => {
+    document.title = "Jamie de Lange"
+  }, [])
+  
   const [aboutSelected, setAboutSelected] = useState(true);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [contactSelected, setContactSelected] = useState(false);
