@@ -5,6 +5,7 @@ import ss3 from '../../assets/3.png'
 import ss4 from '../../assets/4.png'
 import ss5 from '../../assets/5.png'
 import ss6 from '../../assets/6.png'
+import ss7 from '../../assets/7.png'
 import githubIcon from '../../assets/github-icon.png';
 
 function Portfolio() {
@@ -86,14 +87,14 @@ function Portfolio() {
                         </div>
                     </div>
                     <div className="grid-item">
-                        <a href="https://github.com/jamiedelange/team-gen-ultra">
-                            <img className="img-thumbnail" src={`${ss6}`}></img>
+                        <a href="https://lit-escarpment-33126.herokuapp.com/">
+                            <img className="img-thumbnail" src={`${ss7}`}></img>
                         </a>
                         <div className="grid-text">
-                            <a href="https://github.com/jamiedelange/team-gen-ultra">
-                                <h3>Team Generator</h3>
+                            <a href="https://lit-escarpment-33126.herokuapp.com/">
+                                <h3>Moosic</h3>
                             </a>
-                            <a href="https://github.com/jamiedelange/team-gen-ultra">
+                            <a href="https://github.com/Ondayko14/Moosic">
                                 <img className="icon-p" src={`${githubIcon}`} alt="github icon"></img>
                             </a>
                         </div>
