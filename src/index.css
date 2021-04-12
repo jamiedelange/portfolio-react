@@ -287,7 +287,6 @@ img {
 }
 .img-thumbnail:hover {
   opacity: .8;
-  transition: 0.4s;
 }
 
 .container {
