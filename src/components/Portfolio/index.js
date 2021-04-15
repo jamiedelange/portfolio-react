@@ -4,7 +4,7 @@ import ss2 from '../../assets/2.png'
 import ss3 from '../../assets/3.png'
 import ss4 from '../../assets/4.png'
 import ss5 from '../../assets/5.png'
-import ss6 from '../../assets/6.png'
+// import ss6 from '../../assets/6.png'
 import githubIcon from '../../assets/github-icon.png';
 
 function Portfolio() {
@@ -17,7 +17,7 @@ function Portfolio() {
                 <div className="grid-row">
                     <div className="grid-item">
                         <a href="https://jamiedelange.github.io/3D-hike/">
-                            <img className="img-thumbnail" src={`${ss1}`}></img>
+                            <img className="img-thumbnail" src={`${ss1}`} alt='ss1'></img>
                         </a>
                         <div className="grid-text">
                             <a href="https://jamiedelange.github.io/3D-hike/">
@@ -30,7 +30,7 @@ function Portfolio() {
                     </div>
                     <div className="grid-item">
                         <a href="https://guarded-harbor-93701.herokuapp.com">
-                            <img className="img-thumbnail" src={`${ss2}`}></img>
+                            <img className="img-thumbnail" src={`${ss2}`} alt='ss2'></img>
                         </a>
                         <div className="grid-text">
                             <a href="https://guarded-harbor-93701.herokuapp.com">
@@ -45,7 +45,7 @@ function Portfolio() {
                 <div className="grid-row">
                     <div className="grid-item">
                         <a href="https://hidden-shelf-19065.herokuapp.com/">
-                            <img className="img-thumbnail" src={`${ss5}`}></img>
+                            <img className="img-thumbnail" src={`${ss5}`} alt='ss5'></img>
                         </a>
                         <div className="grid-text">
                             <a href="https://hidden-shelf-19065.herokuapp.com/">
@@ -58,14 +58,14 @@ function Portfolio() {
                     </div>
                     <div className="grid-item">
                         <a href="https://gentle-hollows-60962.herokuapp.com/login">
-                            <img className="img-thumbnail" src={`${ss4}`}></img>
+                            <img className="img-thumbnail" src={`${ss4}`} alt='ss4'></img>
                         </a>
                         <div className="grid-text">
                             <a href="https://gentle-hollows-60962.herokuapp.com/login">
                             <h3>Doorman</h3>
                             </a>
                             <a href="https://github.com/jamiedelange/Doorman">
-                                <img className="icon-p" src={`${githubIcon}`} alt="github icon"></img>
+                                <img className="icon-p" src={`${githubIcon}`} alt="github icon" ></img>
                             </a>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ function Portfolio() {
                 <div className="grid-row">
                     <div className="grid-item">
                         <a href="http://note-wizard.herokuapp.com/">
-                            <img className="img-thumbnail" src={`${ss3}`}></img>
+                            <img className="img-thumbnail" src={`${ss3}`} alt='ss3'></img>
                         </a>
                         <div className="grid-text">
                             <a href="http://note-wizard.herokuapp.com/">
