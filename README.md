@@ -12,7 +12,7 @@
   * [Licenses](#licenses)
 
   # Installation Instructions
-  Deployed link: https://jamiedelange.github.io/portfolio-react/
+  Deployed link: https://portfolio-react-pi.vercel.app/
 
   # Usage Information
   Navigate between pages using the nav bar.
