@@ -21,7 +21,7 @@ function Portfolio() {
                         </a>
                         <div className="grid-text">
                             <a href="https://jamiedelange.github.io/3D-hike/">
-                                <h3>3D-Hike</h3>
+                                <h3 id="project-title">3D-Hike</h3>
                             </a>
                             <a  href="https://github.com/jamiedelange/3D-hike">
                                 <img className="icon-p" src={`${githubIcon}`} alt="github icon"></img>
@@ -34,7 +34,7 @@ function Portfolio() {
                         </a>
                         <div className="grid-text">
                             <a href="https://guarded-harbor-93701.herokuapp.com">
-                                <h3>Tech Blog</h3>
+                                <h3 id="project-title">Tech Blog</h3>
                             </a>
                             <a href="https://github.com/jamiedelange/tech-blog">
                                 <img className="icon-p" src={`${githubIcon}`} alt="github icon"></img>
@@ -49,7 +49,7 @@ function Portfolio() {
                         </a>
                         <div className="grid-text">
                             <a href="https://hidden-shelf-19065.herokuapp.com/">
-                                <h3>Budget Tracker</h3>
+                                <h3 id="project-title">Budget Tracker</h3>
                             </a>
                             <a href="https://github.com/jamiedelange/budget-tracker">
                                 <img className="icon-p" src={`${githubIcon}`} alt="github icon"></img>
@@ -62,7 +62,7 @@ function Portfolio() {
                         </a>
                         <div className="grid-text">
                             <a href="https://gentle-hollows-60962.herokuapp.com/login">
-                            <h3>Doorman</h3>
+                            <h3 id="project-title">Doorman</h3>
                             </a>
                             <a href="https://github.com/jamiedelange/Doorman">
                                 <img className="icon-p" src={`${githubIcon}`} alt="github icon" ></img>
@@ -78,7 +78,7 @@ function Portfolio() {
                         </a>
                         <div className="grid-text">
                             <a href="http://note-wizard.herokuapp.com/">
-                                <h3>Note Wizard</h3>
+                                <h3 id="project-title">Note Wizard</h3>
                             </a>
                             <a href="https://github.com/jamiedelange/note-wizard">
                                 <img className="icon-p" src={`${githubIcon}`} alt="github icon"></img>

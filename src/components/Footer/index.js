@@ -6,7 +6,7 @@ import stackoverflowIcon from '../../assets/stackoverflow-icon.png';
 function Footer() {
     return (
         <section>
-            <nav>
+            <nav className="footer-nav">
                 <ul className="footer">
                     <li className="footer-li">
                         <img className="icon" src={`${githubIcon}`} alt="github icon"></img>
