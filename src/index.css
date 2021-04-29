@@ -113,6 +113,25 @@ header a {
 	margin: 1rem 0 1rem 4rem;
 }
 
+::-webkit-scrollbar {
+	width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #0000; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: white; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: lightgrey; 
+  }
+
 button {
 	font-size: 1em;
 	text-decoration: none;
