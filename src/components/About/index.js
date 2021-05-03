@@ -19,7 +19,7 @@ function About() {
             find me playing music or riding a bike.
             </p>
             <div className="download">
-                    <a className="download-text"href="../../assets/resume.pdf" download>Resume (download)</a>
+                    <a className="download-text" href="../../assets/resume.pdf">Download resume</a>
             </div>
         </div>
         <div className="portrait-column">
