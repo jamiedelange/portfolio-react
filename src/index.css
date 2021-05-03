@@ -109,6 +109,41 @@ header a {
 	color: var(--light);
 }
 
+h1.title:hover {
+    animation: 20s multicolor;
+    cursor: none;
+}
+
+@keyframes multicolor {
+    0% {
+        color: white;
+    }
+    12.5% {
+        color: violet;
+    }
+    25% {
+        color: indigo;
+    }
+    37.5% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    62.5% {
+        color: yellow;
+    }
+    75% {
+        color: orange;
+    }
+    87.5% {
+        color: red;
+    }
+    100% {
+        color: white;
+    }
+}
+
 .title {
 	margin: 1rem 0 1rem 4rem;
 }
@@ -234,7 +269,7 @@ textarea {
 
 .summary-column {
 	flex: 50%;
-	margin: 3em 5em 5em 7em;
+	margin: 3em 5em 0 7em;
 }
 
 .portrait-column {
@@ -337,35 +372,35 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 3rem;
 }
+
 .download {
-	background-color: var(--primary);
+	margin-top: 25px;
 }
+
 .download-text {
-	padding: 2rem;
-	color: black;
-	font-size: 1.5rem;
+	padding: 10px;
+	color: rgb(97, 31, 202);;
+	font-size: 1em;
+	background-color: var(--primary);
 }
 
 #skill-columns {
 	width: 50%;
     float: left;
     padding: 20px;
-	margin-bottom: 4em;
 }
 #skill-headings {
 	border-bottom: 2px solid white;
+	font-size: 30px;
 }
 
 .skill-box {
-	/* display: flex;
-	justify-content: center; */
-	margin-top: 3rem;
+	border: 3px solid var(--primary);
+	margin: 0 30px 5em 30px;
 }
 /* .skill-column-left {
-	float: left;
-	width: 50%;
+
 } */
 
 .liDuplicate {
