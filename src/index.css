@@ -251,6 +251,8 @@ textarea {
 	margin: 3em;
 }
 
+
+
 /* portfolio grid */
 .portfolio-header {
 	margin: 1rem;
@@ -460,7 +462,8 @@ img {
 }
 
 .contact-header {
-	margin: 1rem 2rem;
+	background-color: rgb(97, 31, 202);
+	padding: 0.5em;
 }
 
 .buttonDuplicate {
@@ -545,5 +548,15 @@ img {
 
 	.img-portrait {
 		margin-top: 1em;
+	}
+
+	.contact-header {
+		background-color: rgb(97, 31, 202);
+		padding: 0.5em;
+		margin-bottom: 3em;
+	}
+
+	h3.contact-header {
+		text-align: center;
 	}
 }

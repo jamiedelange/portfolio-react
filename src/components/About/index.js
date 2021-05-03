@@ -21,6 +21,7 @@ function About() {
         </div>
         <div className="portrait-column">
             <img src={portrait} className="portrait" alt="portrait" />
+            <h3 className="contact-header">E-mail me at <a className="email-link" href="mailto:jamie.de.lange@mac.com">jamie.de.lange@mac.com</a></h3>
         </div>
       </div>
     </div>
