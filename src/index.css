@@ -44,6 +44,8 @@ body {
 	height: 100%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+
 h1,
 h2,
 h3,
@@ -107,6 +109,11 @@ header {
 
 header a {
 	color: var(--light);
+}
+
+h1.title {
+	font-size: 50px;
+	font-family: 'Lexend Zetta';
 }
 
 h1.title:hover {
@@ -300,6 +307,7 @@ textarea {
 	display: flex;
 	min-height: 100%;
 	flex-direction: column;
+	margin-left: 2em;
 }
 .grid-row {
 	display: flex;
@@ -307,6 +315,7 @@ textarea {
 }
 .grid-item {
 	flex: 1;
+	margin-left: 1em;
 }
 .grid-text {
 	display: flex;
@@ -383,6 +392,7 @@ img {
 	color: rgb(97, 31, 202);;
 	font-size: 1em;
 	background-color: var(--primary);
+	margin-bottom: 25px;
 }
 
 #skill-columns {
@@ -397,7 +407,7 @@ img {
 
 .skill-box {
 	border: 3px solid var(--primary);
-	margin: 0 30px 5em 30px;
+	margin: 20px 30px 5em 30px;
 }
 /* .skill-column-left {
 
@@ -562,6 +572,9 @@ img {
 	.grid-row {
 		display: grid;
 	}
+	.grid {
+		margin: 0 auto 2em auto
+	}
 
 	.img-thumbnail {
 		height: 150px;
@@ -571,7 +584,7 @@ img {
 	.portfolio-box {
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 2em;
+		margin-bottom: 3em;
 	}
 
 	.portfolio-header {
@@ -595,4 +608,17 @@ img {
 	h3.contact-header {
 		text-align: center;
 	}
+
+	#skill-headings {
+		font-size: 20px;
+	}
+
+	ul.skill-ul {
+		font-size: 16px;
+	}
+
+	/* .download {
+		display: flex;
+		justify-content: center;
+	} */
 }

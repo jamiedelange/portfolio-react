@@ -6,7 +6,6 @@ import Resume from "./components/Resume";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
-
 function App() {
   useEffect(() => {
     document.title = "Jamie de Lange"
