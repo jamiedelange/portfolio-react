@@ -29,8 +29,9 @@ function About() {
       </div>
     <div className="resume-box">
             <div className="skill-box">
+            <h2 className="proficiencies">Proficiencies</h2>
                 <div id="skill-columns" className="skill-column-left">
-                    <h2 id="skill-headings">Front-end proficiencies</h2>
+                    <h2 id="skill-headings">Front-end</h2>
                     <ul className="skill-ul">
                         <li>JavaScript ES6+</li>
                         <li>HTML5</li>
@@ -43,7 +44,7 @@ function About() {
                     </ul>
                 </div>
                 <div id="skill-columns" className="skill-column-right">
-                    <h2 id="skill-headings">Back-end proficiencies</h2>
+                    <h2 id="skill-headings">Back-end</h2>
                     <ul className="skill-ul">
                         <li>SQL</li>
                         <li>NoSQL</li>

@@ -44,8 +44,6 @@ body {
 	height: 100%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
-
 h1,
 h2,
 h3,
@@ -113,7 +111,6 @@ header a {
 
 h1.title {
 	font-size: 50px;
-	font-family: 'Lexend Zetta';
 }
 
 h1.title:hover {
@@ -152,7 +149,7 @@ h1.title:hover {
 }
 
 .title {
-	margin: 1rem 0 1rem 4rem;
+	margin: 1rem 0 1rem 126px;
 }
 
 ::-webkit-scrollbar {
@@ -389,7 +386,7 @@ img {
 
 .download-text {
 	padding: 10px;
-	color: rgb(97, 31, 202);;
+	color: rgb(97, 31, 202);
 	font-size: 1em;
 	background-color: var(--primary);
 	margin-bottom: 25px;
@@ -401,7 +398,7 @@ img {
     padding: 20px;
 }
 #skill-headings {
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid var(--primary);
 	font-size: 30px;
 }
 
@@ -409,9 +406,11 @@ img {
 	border: 3px solid var(--primary);
 	margin: 20px 30px 5em 30px;
 }
-/* .skill-column-left {
-
-} */
+.proficiencies {
+	display: flex;
+	justify-content: center;
+	border-bottom: solid var(--primary);
+}
 
 .liDuplicate {
 	list-style-type: circle;
@@ -532,6 +531,12 @@ img {
 	margin-right: -2px;
 }
 
+@media only screen and (max-width: 1000px) {
+	h1.title {
+		font-size: 40px;
+	}
+}
+
 @media only screen and (max-width: 800px) {
 	header {
 		display: flex;
@@ -561,8 +566,15 @@ img {
 		display: block;
 	}
 
+	#about1 {
+		font-size: 24px;
+	}
 	.summary {
-		font-size: 12px;
+		font-size: 15px;
+	}
+	div.summary-column {
+		margin-left: 30px;
+		margin-right: 30px;
 	}
 
 	h3 {
@@ -617,8 +629,15 @@ img {
 		font-size: 16px;
 	}
 
-	/* .download {
+	.download-text {
+		font-size: 0.8em;
+	}
+	div.download {
 		display: flex;
 		justify-content: center;
-	} */
+	}
+
+	h1.title {
+		font-size: 30px;
+	}
 }
