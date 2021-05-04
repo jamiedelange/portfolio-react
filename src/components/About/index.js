@@ -1,5 +1,6 @@
 import React from "react";
 import portrait from "../../assets/0.png";
+import resume from "../../assets/jamie_delange_resume.pdf"
 
 function About() {
   return (
@@ -19,7 +20,7 @@ function About() {
             find me playing music or riding a bike.
             </p>
             <div className="download">
-                    <a className="download-text" href="../../assets/resume.pdf">Download resume</a>
+                    <a className="download-text" href={resume} target="_blank">Download resume</a>
             </div>
         </div>
         <div className="portrait-column">

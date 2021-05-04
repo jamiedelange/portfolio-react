@@ -223,6 +223,7 @@ li {
 	border-bottom: 1px solid white;
 	top: 0;
 	right: 0;
+	font-size: 19px;
 }
 
 nav a {
@@ -294,7 +295,7 @@ textarea {
 
 /* portfolio grid */
 .portfolio-header {
-	margin: 1rem;
+	margin: 1em 1em 1em 50px;
 }
 .portfolio-box {
 	margin: 0 5rem;
@@ -320,6 +321,10 @@ textarea {
 	align-items: center;
 	margin-bottom: 2.3rem;
 }
+a.grid-text-a {
+	text-decoration-color: var(--primary);
+}
+
 #project-title {
 	color: var(--primary);
 }
@@ -535,6 +540,10 @@ img {
 	h1.title {
 		font-size: 40px;
 	}
+
+	.nav-main {
+		font-size: 15px;
+	}
 }
 
 @media only screen and (max-width: 800px) {
@@ -639,5 +648,10 @@ img {
 
 	h1.title {
 		font-size: 30px;
+	}
+
+	.portfolio-header {
+		display: flex;
+		justify-content: center;
 	}
 }
