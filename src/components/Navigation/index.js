@@ -10,18 +10,16 @@ function Navigation(props) {
   } = props;
 
   /* function selectAbout() {
-    //setContactSelected(false);
     setAboutSelected(true);
     setPortfolioSelected(false);
   }
   function selectPortfolio() {
-    //setContactSelected(false);
     setAboutSelected(false);
     setPortfolioSelected(true);
   } */
 
   return (
-    <header  className="flex-row">
+    <header className="flex-row">
       <h1 className="title">
         JAMIE DE LANGE
       </h1>
