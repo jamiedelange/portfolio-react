@@ -1,14 +1,15 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Navigation(props) {
   const {
     aboutSelected,
     portfolioSelected,
-    setAboutSelected,
-    setPortfolioSelected,
+    /* setAboutSelected,
+    setPortfolioSelected, */
   } = props;
 
-  function selectAbout() {
+  /* function selectAbout() {
     //setContactSelected(false);
     setAboutSelected(true);
     setPortfolioSelected(false);
@@ -17,7 +18,7 @@ function Navigation(props) {
     //setContactSelected(false);
     setAboutSelected(false);
     setPortfolioSelected(true);
-  }
+  } */
 
   return (
     <header  className="flex-row">
@@ -26,12 +27,16 @@ function Navigation(props) {
       </h1>
       <nav className="nav-main">
         <ul className="flex-row">
-          <li className={`${aboutSelected ? 'navActive' : 'mx-2 navH'}`}>
-            <a href="#about" onClick={() => selectAbout()}>About me</a>
-          </li>
-          <li className={`${portfolioSelected ? 'navActive' : 'mx-2 navH'}`}>
-            <a href="#portfolio" onClick={() => selectPortfolio()}>Portfolio</a>
-          </li>
+          <Link to='/'>
+            <li className={`${aboutSelected ? 'navActive' : 'mx-2 navH'}`}>
+              <a href="#about" /* onClick={() => selectAbout()} */>About me</a>
+            </li>
+          </Link>
+          <Link to='/portfolio'>
+            <li className={`${portfolioSelected ? 'navActive' : 'mx-2 navH'}`}>
+              <a href="#portfolio" /* onClick={() => selectPortfolio()} */>Portfolio</a>
+            </li>
+          </Link>
         </ul>
       </nav>
     </header>

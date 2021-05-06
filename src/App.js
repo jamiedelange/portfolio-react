@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Resume from "./components/Resume";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
@@ -11,30 +10,26 @@ function App() {
     document.title = "Jamie de Lange"
   }, [])
   
-  const [aboutSelected, setAboutSelected] = useState(true);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-  const [contactSelected, setContactSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
+  /* const [aboutSelected, setAboutSelected] = useState(true);
+  const [portfolioSelected, setPortfolioSelected] = useState(false); */
 
   return (
-    <body className="">
-      <Navigation
-        aboutSelected={aboutSelected}
-        setAboutSelected={setAboutSelected}
-        portfolioSelected={portfolioSelected}
-        setPortfolioSelected={setPortfolioSelected}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-        resumeSelected={resumeSelected}
-        setResumeSelected={setResumeSelected}
-      ></Navigation>
-
-      {aboutSelected ? <About></About> : <div></div>} 
-      {portfolioSelected ? <Portfolio></Portfolio> : <div></div>}
-      {contactSelected ? <Contact></Contact> : <div></div>}
-      {resumeSelected ? <Resume></Resume> : <div></div>}
-      <Footer></Footer>
-    </body>
+    <Router>
+      <body className="">
+        <Navigation
+          /* aboutSelected={aboutSelected}
+          setAboutSelected={setAboutSelected}
+          portfolioSelected={portfolioSelected}
+          setPortfolioSelected={setPortfolioSelected} */
+          
+        ></Navigation>
+        <Switch>
+          <Route path="/" exact component={About}/>
+          <Route path="/portfolio" component={Portfolio}/>
+        </Switch>
+        <Footer></Footer>
+      </body>
+    </Router>
   );
 }
 
