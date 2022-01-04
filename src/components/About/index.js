@@ -10,14 +10,14 @@ function About() {
         <div className="summary-column">
         <h3 id="about1">Hey, I'm Jamie. Thank <br/>you for visiting my page!</h3>
             <p className="summary">
-            I'm a full stack developer based in Nashville, Tennessee, seeking an internship, contract or freelance work
+            I'm a full stack developer based in Nashville, Tennessee, seeking a part-time or full-time job
             in full stack, front-end or back-end development. My expertise is in web development, geology
             and music, and my educational background includes a B.S. in Geology from the University of Georgia
             and a certificate in full stack web development from Vanderbilt University.
             <br/>
             <br/>
             When I'm not working on freelance development projects or learning new programming languages and tools, you can 
-            find me playing music or riding a bike.
+            find me playing music or riding my bike.
             </p>
             <div className="download">
                     <a className="download-text" href={resume} target="_blank" rel="noopener noreferrer">View Resume</a>
@@ -42,6 +42,7 @@ function About() {
                         <li>Webpack</li>
                         <li>Handlebars</li>
                         <li>Bootstrap</li>
+                        <li>Wordpress</li>
                     </ul>
                 </div>
                 <div id="skill-columns" className="skill-column-right">
