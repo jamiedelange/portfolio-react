@@ -1,6 +1,6 @@
 import React from "react";
 import portrait from "../../assets/0.png";
-import resume from "../../assets/jamie_delange_resume.pdf"
+import resume from "../../assets/deLange_James_copy.pdf"
 
 function About() {
   return (
@@ -34,9 +34,9 @@ function About() {
                 <div id="skill-columns" className="skill-column-left">
                     <h2 id="skill-headings">Front-end</h2>
                     <ul className="skill-ul">
-                        <li>JavaScript ES6+</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
                         <li>React</li>
                         <li>jQuery</li>
                         <li>Webpack</li>
